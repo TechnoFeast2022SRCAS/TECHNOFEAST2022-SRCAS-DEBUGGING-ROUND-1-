@@ -1,0 +1,47 @@
+# 1.Solve the errors (Compilation Error in java)
+
+class A 
+{ 
+   public static void main(String args[]) 
+
+    { 
+
+        int a = 40, b = 60; 
+
+        int sum = a + b;
+
+        system.out.Println( 
+
+            "Sum of variables is " 
+
+            + Sum); 
+
+    } 
+
+}
+
+1.b Solve the errors (Compilation Error in java)
+
+class multiTabFive{ 
+
+    public static void main(String args[]) 
+
+    { 
+
+  
+
+        System.out.println("Multiplication Table of 5"); 
+
+        int a = 5, ans; 
+
+        int i; 
+
+        for(i=2; i<=17; i--) 
+
+        for (i = 1, i <= 10; i++) { 
+
+            ans = a * 10; 
+
+            System.out.println(ans + "\n"); 
+
+        } 
