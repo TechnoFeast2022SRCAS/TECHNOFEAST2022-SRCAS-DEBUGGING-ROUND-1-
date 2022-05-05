@@ -1,5 +1,4 @@
 # 1.Solve the errors (Compilation Error in java)
-
 class A 
 { 
    public static void main(String args[]) 
@@ -20,7 +19,7 @@ class A
 
 }
 
-1.b Solve the errors (Compilation Error in java)
+1.B Solve the errors (Compilation Error in java)
 
 class multiTabFive{ 
 
