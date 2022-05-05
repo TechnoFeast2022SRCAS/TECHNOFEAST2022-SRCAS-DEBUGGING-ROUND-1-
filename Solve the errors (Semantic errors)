@@ -1,0 +1,29 @@
+# 8.A Solve the Semantic error!!!
+
+#include <ioStream>
+
+int main()
+{
+    int a { 10 }
+    int b { 12 };
+    std:cout < a < " / " << b < " = <a / b; / division by null is undefined
+    Return 0;
+}
+
+# 8.B Solve the Semantic error!!!
+
+#include <ioStream>
+
+int add(int x   int Y)
+{
+    return x * y / 
+}
+
+int main()
+{
+    std:count <<<add(5, 6)
+
+    Return 0;
+}
+}
+}
