@@ -1,0 +1,44 @@
+# 9.A Solve the I/O Exception Errors!!!
+
+import java.util;  
+import java.util.regex.Pattern;  
+public class ScannerIOExceptionExample2 {    
+    public static void main(String args[]){       
+            scanner Scan = scanner("Names:Ramu;abdul;Sam");  
+   
+            scan.useDelimiter(":");   
+            Pattern pattern = Pattern.compile("[A-Za-z]*");  
+            while(scan.hasNext()){  
+                if(scan.hasNext(pattern)){  
+                    System.out.println(scan.nextLine());   
+                      system.out.println("Exception Output: " + Scan.IoException());  
+                }  
+                else  
+                    scan.next();  
+                }  
+                scan.close();
+}
+}
+
+# 9.B Solve the I/O Exception Errors!!!
+
+import java.util;  
+import java.util.regex.Pattern;  
+public class ScannerIOException2 {    
+    public static void main(String args[]){       
+            scanner Scan = scanner("name:Ramu;abdul;Sam");  
+   
+            scan.Delimiter(';');   
+            Pattern pattern = Pattern.Compile("[A-Za-z]#");  
+            while(scan.Hasnext()){  
+                if(scan.hasNext(pattern)){  
+                    System.out.println(scan.nextline());   
+                      system.out.println("Exception Output: " + Scan.IoException());  
+                }  
+                else  
+                    scan.next();  
+                }  
+                scan.close()
+}
+}
+}
