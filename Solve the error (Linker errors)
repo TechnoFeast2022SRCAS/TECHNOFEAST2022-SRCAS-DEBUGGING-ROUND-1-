@@ -1,0 +1,22 @@
+# 3 A.Solve the Linker errors in C
+
+#include<stdio.h>
+void main()
+{
+	int float var= 15, 26.78;
+	printf("%d""%d",var);
+}
+
+
+# 3 B.Solve the Linker errors in C
+#include<stdio.h>
+
+void Main()
+
+{
+
+    int a = 10.70; 
+    int a;
+    printf("%d,%d", a); 
+
+}
