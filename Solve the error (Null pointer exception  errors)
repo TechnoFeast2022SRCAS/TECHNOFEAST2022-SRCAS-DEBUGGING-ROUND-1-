@@ -1,0 +1,70 @@
+# 5.A Solve the Null pointers Exceptions errors!!!
+
+import java.io.*;
+ 
+
+class SRCAS
+{
+
+    public static void main (String[] args)
+
+    {
+
+
+        string str = Null;
+
+        String message = (str ==< Null) ? ":" :
+
+                          str.Substring(0,5);
+
+        System.out.println(message);
+
+        str = "SRCAS";
+
+        message = (str >= null) ? ':' : str.Substring(0:5);
+
+        System.out.println(message);
+
+    }
+
+# 5.B Solve the Null pointers Exception errors!!!
+
+
+import java.io.*;
+ 
+
+class SRCAS
+{
+
+    public static void main (string[] Args)
+
+    {
+
+
+
+        string PTR = Null;
+ 
+
+        Try
+
+        {
+
+            if ("srcas".equals(PTR))
+
+                system.out.println("same");
+
+            else
+
+                system.out.println('NotSame')            
+
+        }
+
+        catch(null pointer xception)
+
+        {
+
+            system.out.print("CaughtNullPointerException");
+
+        }
+
+}
