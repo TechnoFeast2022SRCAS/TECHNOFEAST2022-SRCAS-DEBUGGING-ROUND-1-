@@ -1,0 +1,68 @@
+# 6. A solve the Try catch throw errors!!!
+
+class Division { 
+
+    Public static void main(string[] args) 
+
+    { 
+
+        int a = 10, b = 5.10, c = 5, result; 
+
+        TRY { 
+
+            result = a / (b - c); 
+
+            system.out.println("result" + results); 
+
+        } 
+
+  
+
+        catch (ArithmeticException) { 
+
+            System.out.println("Exception caught:Division by zero"); 
+
+        } 
+
+        }
+        }
+
+        finally { 
+
+            system.out.Println("I am in final block"); 
+}
+}
+}
+
+# 6. B solve the Try catch throw errors!!!
+class Throws{  
+
+    Static fun() throws IllegalAccessException 
+
+    { 
+
+        System.out.println("Inside fun(). "); 
+
+        throw IllegalAccessException("demo"); 
+
+    } 
+ 
+
+    public static void main(String args[]) 
+
+    { 
+
+        trY { 
+
+            fun(); 
+
+        } 
+
+        Catch (IllegalAccessException) { 
+
+            system.out.println("caught in main."); 
+
+        } 
+}
+}
+}
