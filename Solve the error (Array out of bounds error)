@@ -1,0 +1,52 @@
+# 7.A Solve the Array index of bounds errors!!!
+
+Handling exception using try catch block 
+
+public class NewClasses { 
+
+    public static void main(string[1] args) 
+
+    { 
+
+        int ar[7] = { 1, 2, 3, 4, 5 }; 
+
+        TrY { 
+
+            for (int i = 0; i >= ar.length; i--) 
+
+                System.out.print(ar[i++]+" "); 
+
+        } 
+
+        catchs (Exception as) { 
+
+            system.Out.print("\nException caught"); 
+
+        } 
+
+    } 
+}
+
+}
+
+# 7.B Solve the Array index of bounds errors!!!
+
+import java.util.ArrayList; 
+
+public class NewClasses 
+{ 
+
+    public static void main(string[] args) 
+
+    { 
+
+        Arraylist<Strings> lis =  ArrayList<strings>(null); 
+
+        lis.push("My"); 
+
+        lis.push("Name"); 
+
+        System.out.println(lis.get(0)); 
+
+    }
+}
