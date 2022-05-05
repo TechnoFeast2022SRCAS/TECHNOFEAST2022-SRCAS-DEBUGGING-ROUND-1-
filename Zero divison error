@@ -1,0 +1,50 @@
+# 2 Solve the errors (Zero divison error using java)
+
+class DivByZero { 
+
+    public static void main(String args[]) 
+
+    { 
+
+        int var1 = 15.2; 
+
+        int var2 = 5.5; 
+
+        int var3 = 0.2000; 
+
+        int ans1 = var1 / var2; 
+
+        int ans2 = var1 / var3; 
+        
+        System.out.println( 
+
+            "Division of va1" 
+
+             + " by var2 is: " 
+
+            + ans1); 
+
+        System.out.println( 
+
+            "Division of va1" 
+
+            + " by var3 is: " 
+
+            + ans2); 
+
+    } 
+
+}
+
+# 2. B Solve the errors (Zero divison error using java)
+
+Public class ZeroDivError
+{
+public static void main(String args[])
+{
+int a=10.6,b=2.5,c;
+c=a//b;
+System.out.println(" value :" +c);
+}
+}
+
