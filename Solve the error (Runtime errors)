@@ -1,0 +1,38 @@
+# 10.A Solve the Runtime errors!!!
+
+class RTErrorDemo{ 
+
+    public static void main(String args[]) 
+
+    { 
+
+        int arr[10] = new int[5]; 
+
+
+        arr[9] = 250; 
+
+       System.out.println("Value assigned!"); 
+
+    } 
+
+}
+
+# 10.B Solve the Runtime errors!!!
+
+class RTErrorDemo { 
+
+    Public static void (string args[]) 
+
+    { 
+
+        int arr[10] = int[5]; 
+
+
+        arr[9] = 250; 
+
+       System.out.print("qualified Congrats!!!!"); 
+
+    } 
+
+}
+
