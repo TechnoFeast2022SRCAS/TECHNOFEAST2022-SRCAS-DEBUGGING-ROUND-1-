@@ -1,6 +1,5 @@
 # 7.A Solve the Array index of bounds errors!!!
 
-Handling exception using try catch block 
 
 public class NewClasses { 
 
